@@ -1,6 +1,6 @@
 {
   "id": "rnk-alpha-mapgen",
-  "title": "RNK™ Alpha MapGen - Semantic Dungeon Weaver",
+  "title": "RNK™ Alpha MapGen",
   "description": "Alpha-tier dungeon generator with theme-driven textures, architecture and trap controls, and deep Foundry VTT integration.",
   "version": "1.0.3",
   "authors": [
