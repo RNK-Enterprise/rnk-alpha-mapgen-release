@@ -1,49 +1,32 @@
-# RNK Alpha MapGen
+﻿# RNK Alpha MapGen
 
-RNK Alpha MapGen is the compact alpha-tier Foundry VTT dungeon generator for the RNK module family. It keeps the core map generation workflow, theme selection, architecture controls, and trap placement, while leaving the advanced tier features out of the way.
+Foundry VTT module for dungeon map generation. Requires the RNK map server running locally or on your network.
 
-## Features
+Compatible with Foundry VTT v13 and v14.
 
-- Theme-driven dungeon generation
-- Stacked alpha-tier GM Hub layout
-- Architecture and trap controls
-- Scene generation and export actions
-- Foundry VTT scene control integration
+## v1.0.3
+
+Includes all features from the Free tier plus the following.
+
+**Architecture Controls**
+
+Room count from 3 to 200. Level count from 1 to 20. Room variety, corridor complexity, branching factor, dead-end frequency, treasure density, and secret room frequency each have sliders from 0 to 10. Room size: Tiny, Small, Medium, Large, or Huge. Symmetry: Asymmetric, Balanced, or Symmetric. Verticality: Flat, Moderate, or Multilevel. Connection density: Isolated, Moderate, or Interconnected. Chamber shape: Square, Circular, Irregular, or Mixed. Encounter pacing: Spread or Clustered.
+
+**Traps and Hazards**
+
+Trap count from 0 to 100. Trap DC from 5 to 30. Trap radius from 1 to 30. Trap type: None, Random, Spike Floor, Flame Jet, Acid Spray, Scythe Blade, Pit Trap, Dart Shooter, Web Snare, Teleport (Random), Teleport (Linked), Gravity Well, Silence Aura, Alarm Bell, or Magic Drain.
 
 ## Installation
 
-1. Copy the `rnk-alpha-mapgen` folder into your Foundry `Data/modules` directory.
-2. Start the local Python service defined in `server.py`.
-3. Enable the module in Foundry and open the GM Hub from the scene controls.
-
-## Module details
-
-| Field | Value |
-| --- | --- |
-| Module ID | `rnk-alpha-mapgen` |
-| Title | `RNK Alpha MapGen` |
-| Compatibility | Foundry VTT v11-v13 |
-| License | Proprietary |
-
-## Folder layout
-
-```text
-rnk-alpha-mapgen/
-├── module.json
-├── README.md
-├── scripts/
-│   ├── rnk-dungeon.js
-│   ├── rnk-movement.js
-│   └── rnk-traps.js
-├── styles/
-│   └── rnk-dungeon.css
-└── templates/
-    ├── gm-hub.html
-    └── scene-tracker.html
+Manifest URL:
+```
+https://github.com/RNK-Enterprise/rnk-alpha-mapgen-release/releases/latest/download/module.json
 ```
 
-## Notes
+## Support
 
-- The alpha tier is intentionally simpler than the higher RNK module tiers.
-- The module id and runtime namespace use `rnk-alpha-mapgen`.
-- Keep the folder name aligned with the module id when packaging for Foundry.
+Patreon: https://www.patreon.com/RagNaroks
+
+---
+
+RNK Enterprise. All rights reserved.
