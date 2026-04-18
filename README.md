@@ -1,37 +1,43 @@
 ﻿# RNK Alpha MapGen
 
-Foundry VTT module for dungeon map generation. Requires the RNK map server running locally or on your network.
+Foundry VTT dungeon map generator - Alpha tier. Includes everything in Free, plus expanded options.
 
-Compatible with Foundry VTT v13 and v14.
+Support development and unlock additional tiers at https://www.patreon.com/RagNaroks
 
-## Screenshots
+---
 
-![RNK Alpha MapGen 1](RNK%20Alpha%20Mapgen%201.jpeg)
+## Features
 
-![RNK Alpha MapGen 2](RNK%20Alpha%20Mapgen%202.jpeg)
+**Everything in Free, plus:**
 
-## v1.0.3
+**Dungeon Theme**
+8 themes: Classic Dungeon, Natural Cave, Crypt, Sewer, Forest, Frozen, Temple, Tomb.
 
-Includes all features from the Free tier plus the following.
+**Architecture**
+3 rows of controls. Room count up to 200, levels up to 20. Symmetry, verticality, connection density, chamber shape, and encounter pacing selectors. Branching, dead end frequency, loot density, and secret room frequency sliders.
 
-**Architecture Controls**
+**Traps & Hazards**
+8 trap types: None, Random, Spike Floor, Flame Jet, Acid Spray, Scythe Blade, Pit Trap, Dart Shooter. DC 5-25, radius 1-20.
 
-Room count from 3 to 200. Level count from 1 to 20. Room variety, corridor complexity, branching factor, dead-end frequency, treasure density, and secret room frequency each have sliders from 0 to 10. Room size: Tiny, Small, Medium, Large, or Huge. Symmetry: Asymmetric, Balanced, or Symmetric. Verticality: Flat, Moderate, or Multilevel. Connection density: Isolated, Moderate, or Interconnected. Chamber shape: Square, Circular, Irregular, or Mixed. Encounter pacing: Spread or Clustered.
+**Environment**
+Light intensity slider. 10 light animation options. 7 ambient sound options.
 
-**Traps and Hazards**
+**Adversaries**
+9 mob types, 5 density levels, challenge rating selector (CR 1-2 through CR 13+), patrol count up to 20.
 
-Trap count from 0 to 100. Trap DC from 5 to 30. Trap radius from 1 to 30. Trap type: None, Random, Spike Floor, Flame Jet, Acid Spray, Scythe Blade, Pit Trap, Dart Shooter, Web Snare, Teleport (Random), Teleport (Linked), Gravity Well, Silence Aura, Alarm Bell, or Magic Drain.
+**Automation**
+6 toggles: Walls, Doors, Lights, Sounds, Mobs, Boss.
+
+**Unlimited Generation**
+No daily limit.
+
+---
 
 ## Installation
 
-Manifest URL:
 ```
 https://github.com/RNK-Enterprise/rnk-alpha-mapgen-release/releases/latest/download/module.json
 ```
-
-## Support
-
-Patreon: https://www.patreon.com/RagNaroks
 
 ---
 

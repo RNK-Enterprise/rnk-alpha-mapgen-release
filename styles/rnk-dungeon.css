@@ -1,13 +1,50 @@
-/* RNK Dungeon Generator - Gothic Crimson Blood Theme */
+/* UX REBUILD LAYER REMOVED: restore original DimDraft proportions. */
+.rnk-tracker-hub {
+  min-width: 0 !important;
+  min-height: 0 !important;
+}
 
-:root {
-  --rnk-crimson: #c41e3a;         /* Deep Crimson */
-  --rnk-blood: #8b1a1a;           /* Blood Red */
-  --rnk-dark-blood: #3d0a0a;      /* Dark Blood */
-  --rnk-black: #0a0a0a;           /* Deep Black */
-  --rnk-text: #e8e8e8;            /* Off-white */
-  --rnk-accent: #ff4444;          /* Bright Blood Red */
-  --rnk-accent-dark: #cc1111;     /* Dark Accent */
+.rnk-workspace {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  gap: 0 !important;
+  overflow: hidden !important;
+}
+
+.rnk-controls {
+  flex: 0 0 clamp(280px, 34vw, 480px) !important;
+  width: clamp(280px, 34vw, 480px) !important;
+  min-width: 280px !important;
+  max-width: 480px !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+}
+
+.rnk-preview-panel {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  overflow: auto !important;
+}
+
+@media (max-width: 1200px) {
+  .rnk-workspace {
+    flex-direction: column !important;
+  }
+
+  .rnk-controls,
+  .rnk-preview-panel {
+    width: 100% !important;
+    max-width: none !important;
+    flex: 1 1 auto !important;
+  }
+
+  .rnk-controls {
+    max-height: 48vh !important;
+  }
+
+  .rnk-preview-panel {
+    min-height: 40vh !important;
+  }
 }
 
 .rnk-gm-hub.window-app,
