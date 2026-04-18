@@ -1,6 +1,6 @@
-﻿# RNK Alpha MapGen
+# RNK Alpha MapGen
 
-Foundry VTT dungeon map generator - Alpha tier. Includes everything in Free, plus expanded options.
+Foundry VTT dungeon map generator — Alpha tier. Includes everything in Free, plus expanded options. Compatible with Foundry VTT v11+ (verified v14).
 
 Support development and unlock additional tiers at https://www.patreon.com/RagNaroks
 
@@ -11,19 +11,19 @@ Support development and unlock additional tiers at https://www.patreon.com/RagNa
 **Everything in Free, plus:**
 
 **Dungeon Theme**
-8 themes: Classic Dungeon, Natural Cave, Crypt, Sewer, Forest, Frozen, Temple, Tomb.
+5 themes: Classic Dungeon, Crypt, Forest, Natural Cave, Sewer.
 
 **Architecture**
-3 rows of controls. Room count up to 200, levels up to 20. Symmetry, verticality, connection density, chamber shape, and encounter pacing selectors. Branching, dead end frequency, loot density, and secret room frequency sliders.
+Room count up to 200, levels up to 20, grid size up to 200 px. Room variety, corridor complexity, branching, dead-end frequency, treasure density, and secret-room frequency sliders (0-10 each).
 
 **Traps & Hazards**
-8 trap types: None, Random, Spike Floor, Flame Jet, Acid Spray, Scythe Blade, Pit Trap, Dart Shooter. DC 5-25, radius 1-20.
+5 trap types: None, Spike Floor, Flame Jet, Pit Trap, Dart Shooter. DC 5-25, radius 1-20, trap count 0-100.
 
 **Environment**
-Light intensity slider. 10 light animation options. 7 ambient sound options.
+Light intensity slider. 6 light animations: Torch, Flicker, Pulse, Chroma, Wave, None. 5 ambient sounds: None, Dungeon Mix, Random, Cave Drip, Underwater.
 
 **Adversaries**
-9 mob types, 5 density levels, challenge rating selector (CR 1-2 through CR 13+), patrol count up to 20.
+4 mob types (None, Undead, Auto, Humanoid), 3 density levels (None, Sparse, Normal), patrol count up to 20.
 
 **Automation**
 6 toggles: Walls, Doors, Lights, Sounds, Mobs, Boss.
