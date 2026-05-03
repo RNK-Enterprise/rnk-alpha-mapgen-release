@@ -2,7 +2,7 @@
   "id": "rnk-alpha-mapgen",
   "title": "RNK™ Alpha MapGen",
   "description": "Alpha-tier dungeon generator with theme-driven textures, architecture and trap controls, and deep Foundry VTT integration.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "authors": [
     {
       "name": "RNK™ Enterprise"
@@ -13,7 +13,6 @@
     "verified": 14
   },
   "url": "https://github.com/RNK-Enterprise/rnk-alpha-mapgen-release",
-  "icon": "./assets/rnk-mark.svg",
   "manifest": "https://github.com/RNK-Enterprise/rnk-alpha-mapgen-release/releases/latest/download/module.json",
   "download": "https://github.com/RNK-Enterprise/rnk-alpha-mapgen-release/releases/latest/download/module.zip",
   "license": "Proprietary",
